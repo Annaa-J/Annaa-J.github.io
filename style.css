@@ -11,6 +11,7 @@ h1 {
     font-size: 48px;
     padding-bottom: 12px;
     margin-bottom: 24px;
+    color: #4f2517;
     border-bottom: 2px dashed gray;
 }
 
@@ -18,6 +19,7 @@ p {
     margin: 0;
     line-height: 1.5;
     font-size: 20px;
+    color: #4f2517;
 }
 
 a {
