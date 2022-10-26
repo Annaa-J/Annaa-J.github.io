@@ -8,6 +8,10 @@ body {
     background: #D1EBC0;
 }
 
+h1 {
+color: #4f2517;
+}
+
 .container {
     width: 1440px;
     max-width: calc(100% - 32px);
