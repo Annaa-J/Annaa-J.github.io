@@ -5,7 +5,7 @@
 
 body {
     font-family: "Calibri";
-    background: #dbf2cb;
+    background: #edb992;
 }
 
 h1 {
@@ -35,7 +35,7 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #d48787;
+    color: #a12929;
     position: relative;
     display: flex;
     align-items: center;
