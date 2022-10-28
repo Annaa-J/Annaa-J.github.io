@@ -4,7 +4,7 @@
 }
 
 img {
-    width: 140px;
+    height: 110px;
 }
 
 body {
@@ -27,14 +27,17 @@ h1 {
 
 .racconti {
     width: 250px;
+    margin-top: 110px;
 }
 
 .robe {
     width: 250px;
+    margin-top: 110px;
 }
 
 .poesie {
     width: 250px;
+    margin-top: 110px;
 }
 
 a {
