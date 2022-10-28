@@ -5,11 +5,11 @@
 
 body {
     font-family: "Calibri";
-    background: #edb992;
+    background: #edb992a3;
 }
 
 h1 {
-    color: #5e3426;
+    color: #601e07;
 }
 
 .container {
@@ -35,7 +35,7 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #a12929;
+    color: #870707;
     position: relative;
     display: flex;
     align-items: center;
