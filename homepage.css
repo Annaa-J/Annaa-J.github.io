@@ -3,58 +3,72 @@
   src: url("./NerdFont.ttf") format("truetype");
 }
 
-img {
-    height: 110px;
+@keyframes cammina {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100vw);
+  }
 }
 
+.mucca {
+  height: 110px;
+  animation: 10s cammina;
+  animation-iteration-count: infinite;
+}
+
+
 body {
-    font-family: "Calibri";
-    background: #edb992a3;
+  font-family: "Calibri";
+  background: #edb992a3;
 }
 
 h1 {
-    color: #601e07;
+  color: #601e07;
 }
 
 .container {
-    width: 1440px;
-    max-width: calc(100% - 32px);
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  width: 1440px;
+  max-width: calc(100% - 64px);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.header {
+  width: 100%;
 }
 
 .racconti {
-    width: 250px;
+  width: 250px;
 }
 
 .robe {
-    width: 250px;
-    margin-top: 110px;
+  width: 250px;
 }
 
 .poesie {
-    width: 250px;
-    margin-top: 110px;
+  width: 250px;
 }
 
 a {
-    text-decoration: none;
-    color: #870707;
-    position: relative;
-    display: flex;
-    align-items: center;
+  text-decoration: none;
+  color: #870707;
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 a::after {
-    transition: .2s;
-    font-family: "NerdFont";
-    content: " ";
-    font-size: 32px;
-    margin-left: 10px;
+  transition: .2s;
+  font-family: "NerdFont";
+  content: " ";
+  font-size: 32px;
+  margin-left: 10px;
 }
 
-a:hover::after{
-    margin-left: 20px;
+a:hover::after {
+  margin-left: 20px;
 }
