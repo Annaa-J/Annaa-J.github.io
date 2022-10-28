@@ -14,7 +14,7 @@
 
 .mucca {
   height: 110px;
-  animation: 10s cammina;
+  animation: 8s cammina;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
