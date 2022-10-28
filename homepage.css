@@ -3,6 +3,10 @@
   src: url("./NerdFont.ttf") format("truetype");
 }
 
+img {
+    width: 140px;
+}
+
 body {
     font-family: "Calibri";
     background: #edb992a3;
