@@ -24,12 +24,12 @@ p {
 
 a {
     text-decoration: none;
-    color: #c55151;
+    color: #ca5858;
     position: relative;
     display: flex;
     align-items: center;
     font-size: 32px;
-    border-bottom: 2px solid #e57979;
+    border-bottom: 2px solid #d67e64;
     display: inline-block;
     padding: 0 10px;
 }
