@@ -8,10 +8,10 @@ body {
 }
 
 .toro {
-    height: 110px;
+    height: 100px;
     float: right;
     position: relative;
-    top: 12px;
+    top: 15px;
     right: 10px;
 }
 
