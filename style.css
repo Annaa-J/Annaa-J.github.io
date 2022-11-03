@@ -1,5 +1,5 @@
 body {
-    width: 1440px;
+    width: 900px;
     max-width: calc(100% - 64px);
     margin: 50px auto;
     display: block;
@@ -25,6 +25,7 @@ h1 {
 }
 
 p {
+    width: 850px;
     margin: 10px;
     line-height: 1.5;
     font-size: 20px;
