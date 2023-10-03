@@ -4,7 +4,8 @@ body {
     margin: 50px auto;
     display: block;
     font-family: "Calibri";
-    background: #edb992a3;
+    background: black;
+    color: white;
 }
 
 .toro {
@@ -19,7 +20,7 @@ h1 {
     font-size: 40px;
     padding-bottom: 12px;
     margin-bottom: 24px;
-    color: #601e07;
+    /* color: #601e07; */
     border-bottom: 2px dashed #855c50;
     position: relative;
 }
@@ -29,12 +30,13 @@ p {
     margin: 0;
     line-height: 1.5;
     font-size: 20px;
-    color: #870707;
+    /* color: #870707; */
 }
 
 a {
     text-decoration: none;
-    color: #c76060;
+    /* color: #c76060; */
+    color: wheat;
     position: relative;
     display: flex;
     align-items: center;
@@ -43,3 +45,5 @@ a {
     display: inline-block;
     padding: 0 10px;
 }
+
+
