@@ -33,10 +33,15 @@ h1 {
   width: 1100px;
   max-width: calc(100% - 64px);
   margin: 0 auto;
+  display: flex;
+  justify-content: end;
 }
 
 .language a {
-  font-weight: bolder;
+}
+
+.language a::after {
+  content: "";
 }
 
 .container {
